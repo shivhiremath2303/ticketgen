@@ -1,0 +1,147 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dumper/1.0.0": {
+        "dependencies": {
+          "UbiServices": "23.1.21",
+          "Uplay-Protobufs": "138.0.10807",
+          "UplayKit": "0.0.0.6"
+        },
+        "runtime": {
+          "Dumper.dll": {}
+        }
+      },
+      "Google.Protobuf/3.21.12": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.12.0",
+            "fileVersion": "3.21.12.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "RestSharp/108.0.3": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.3.0",
+            "fileVersion": "108.0.3.0"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      },
+      "UbiServices/23.1.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "RestSharp": "108.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/UbiServices.dll": {
+            "assemblyVersion": "23.1.21.0",
+            "fileVersion": "23.1.21.0"
+          }
+        }
+      },
+      "Uplay-Protobufs/138.0.10807": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.12"
+        },
+        "runtime": {
+          "lib/net6.0/Uplay-Protobufs.dll": {
+            "assemblyVersion": "138.0.10807.0",
+            "fileVersion": "138.0.10807.0"
+          }
+        }
+      },
+      "UplayKit/0.0.0.6": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.12",
+          "Newtonsoft.Json": "13.0.2",
+          "RestSharp": "108.0.3",
+          "SharpZipLib": "1.4.2",
+          "Uplay-Protobufs": "138.0.10807"
+        },
+        "runtime": {
+          "lib/net6.0/UplayKit.dll": {
+            "assemblyVersion": "0.0.0.6",
+            "fileVersion": "0.0.0.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dumper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.21.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
+      "path": "google.protobuf/3.21.12",
+      "hashPath": "google.protobuf.3.21.12.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "RestSharp/108.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-phq1AkVhqVXHZxvWDV4fJEJKCR5OHNFUGx2Ix8o5EFShS6654oZhth4X2RWvaU/W7UexIswW0T+lTirxfLU2Ow==",
+      "path": "restsharp/108.0.3",
+      "hashPath": "restsharp.108.0.3.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "path": "sharpziplib/1.4.2",
+      "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
+    },
+    "UbiServices/23.1.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zIDJiq111Tou7hbii9jrvuLV+T/YkrfI2XHdZ4xM55rrVkgDpIDx1BOwYhn45rui0HLgZHb1YPlE44E+RtJMHQ==",
+      "path": "ubiservices/23.1.21",
+      "hashPath": "ubiservices.23.1.21.nupkg.sha512"
+    },
+    "Uplay-Protobufs/138.0.10807": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1eKPUhHvWb+aJAUv7QFBd9N3hP7Y8Aa4+3yvcjsbkyxLi9dEi5nrHq+ow/rxk/mCfVt6MfgLe4R4RBaVnZKQIQ==",
+      "path": "uplay-protobufs/138.0.10807",
+      "hashPath": "uplay-protobufs.138.0.10807.nupkg.sha512"
+    },
+    "UplayKit/0.0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u4Mta/Avzz/jfjqsuZU4RCQekDm5E52uBz6+B+w95vq0vQ6iwDIDkUWwAeJ/vBOR7UcnAzv/4DCjsD/Jtd/Tgg==",
+      "path": "uplaykit/0.0.0.6",
+      "hashPath": "uplaykit.0.0.0.6.nupkg.sha512"
+    }
+  }
+}
